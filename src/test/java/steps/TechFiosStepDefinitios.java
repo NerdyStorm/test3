@@ -33,10 +33,10 @@ public class TechFiosStepDefinitios extends TestBase {
 
 	// Given User is on techfios login page
 	@Given("^User is on techfios login page$")
-	public void user_is_on_techfios_login_page() {
+	public void user_is_on_techfios_login_page() throws InterruptedException {
 		driver.get("https://techfios.com/billing/?ng=login/");
-
-		System.out.println("Given User is on techfios login page");
+		Thread.sleep(3000);
+        System.out.println("Given User is on techfios login page");
 	}
 
 	@When("^User enters username as \"([^\"]*)\"$")

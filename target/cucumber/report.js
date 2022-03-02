@@ -155,7 +155,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4770178500,
+  "duration": 7169270100,
   "status": "passed"
 });
 formatter.scenario({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_is_on_techfios_login_page()"
 });
 formatter.result({
-  "duration": 2400713800,
+  "duration": 5210729600,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_username_as_(String)"
 });
 formatter.result({
-  "duration": 3228302500,
+  "duration": 3596596000,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 3140472600,
+  "duration": 3261755800,
   "status": "passed"
 });
 formatter.match({
@@ -335,14 +335,14 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 9260024000,
+  "duration": 9153958900,
   "status": "passed"
 });
 formatter.match({
   "location": "TechFiosStepDefinitios.user_should_land_on_dashboardpage()"
 });
 formatter.result({
-  "duration": 284019900,
+  "duration": 863941700,
   "status": "passed"
 });
 formatter.match({
@@ -355,7 +355,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 3108506400,
+  "duration": 3329739600,
   "status": "passed"
 });
 formatter.match({
@@ -368,7 +368,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 4321724600,
+  "duration": 4077035400,
   "status": "passed"
 });
 formatter.match({
@@ -381,7 +381,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_should_land_on(String)"
 });
 formatter.result({
-  "duration": 35460100,
+  "duration": 35739500,
   "status": "passed"
 });
 formatter.match({
@@ -394,7 +394,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 187600,
+  "duration": 207900,
   "status": "passed"
 });
 formatter.match({
@@ -407,7 +407,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 132700,
+  "duration": 165800,
   "status": "passed"
 });
 formatter.match({
@@ -420,7 +420,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 160200,
+  "duration": 187100,
   "status": "passed"
 });
 formatter.match({
@@ -433,7 +433,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 85000,
+  "duration": 161200,
   "status": "passed"
 });
 formatter.match({
@@ -446,7 +446,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 102100,
+  "duration": 199000,
   "status": "passed"
 });
 formatter.match({
@@ -459,7 +459,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 129700,
+  "duration": 159700,
   "status": "passed"
 });
 formatter.match({
@@ -472,7 +472,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 91000,
+  "duration": 197900,
   "status": "passed"
 });
 formatter.match({
@@ -485,19 +485,19 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 92600,
+  "duration": 161600,
   "status": "passed"
 });
 formatter.match({
   "location": "TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
-  "duration": 373800,
+  "duration": 904800,
   "error_message": "java.lang.NullPointerException\r\n\tat pages.BankAndCash.validatecreatedAcount(BankAndCash.java:82)\r\n\tat steps.TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully(TechFiosStepDefinitios.java:154)\r\n\tat ✽.Then User should be able to validate account created successfully(features/TechfiosLogin.feature:22)\r\n",
   "status": "failed"
 });
 formatter.after({
-  "duration": 861971900,
+  "duration": 1145400200,
   "status": "passed"
 });
 });
