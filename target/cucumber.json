@@ -1,0 +1,384 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4770178500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechFiosStepDefinitios.beforerun()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "1 User should be able to Login with valid credentials",
+        "description": "",
+        "id": "techfios-login-functionality-validation;1-user-should-be-able-to-login-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 861971900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TechFiosStepDefinitios.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2400713800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on techfios login page",
+            "match": {
+              "location": "TechFiosStepDefinitios.user_is_on_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3228302500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 25
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_enters_username_as_(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3140472600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 25
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_enters_password_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9260024000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on \"Signin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Signin",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284019900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should land on dashboardpage",
+            "match": {
+              "location": "TechFiosStepDefinitios.user_should_land_on_dashboardpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3108506400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on \"Bank \u0026 cash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Bank \u0026 cash",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_clicks_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4321724600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on \"New Account\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New Account",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_clicks_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 35460100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should land on \"\u003caccounts\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003caccounts\u003e",
+                  "offset": 21
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_should_land_on(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 187600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters on \"banking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "banking",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 132700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters on \"saving\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "saving",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 160200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters on \"3000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3000",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters on \"42545289\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "42545289",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 102100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters on \"sana\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sana",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129700,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters on \"8086564355\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8086564355",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters on \"https://www.pncbank.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "https://www.pncbank.com/",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_Enters(String)"
+            },
+            "matchedColumns": [
+              8
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User clicks on \"Submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Submit",
+                  "offset": 16
+                }
+              ],
+              "location": "TechFiosStepDefinitios.user_clicks_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373800,
+              "error_message": "java.lang.NullPointerException\r\n\tat pages.BankAndCash.validatecreatedAcount(BankAndCash.java:82)\r\n\tat steps.TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully(TechFiosStepDefinitios.java:154)\r\n\tat ✽.Then User should be able to validate account created successfully(features/TechfiosLogin.feature:22)\r\n",
+              "status": "failed"
+            },
+            "line": 22,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          },
+          {
+            "line": 4,
+            "name": "@TFScenario1"
+          },
+          {
+            "line": 1,
+            "name": "@LoginFeature"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios login functionality Validation",
+    "description": "",
+    "id": "techfios-login-functionality-validation",
+    "keyword": "Feature",
+    "uri": "features/TechfiosLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@LoginFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]

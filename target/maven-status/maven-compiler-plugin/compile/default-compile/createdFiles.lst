@@ -1,0 +1,4 @@
+pages\DatabasePage.class
+pages\LoginPage.class
+pages\TestBase.class
+pages\BankAndCash.class
