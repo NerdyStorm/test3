@@ -5,9 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
-public class BankAndCash {
+public class BankAndCashPage {
 
-	public static WebDriver driver;
+	public WebDriver driver;
 
 	public void bankandCash(WebDriver driver) {
 		this.driver = driver;
@@ -24,8 +24,8 @@ public class BankAndCash {
 	WebElement BANK_AND_CASH_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//a[text() = 'New Account']")
 	WebElement NEW_ACCOUNT_ELEMENT;
-	@FindBy(how = How.XPATH, using = "//h2[contains(text(),' Accounts ')]")
-	WebElement ACCOUNTS_ELEMENT;
+	// @FindBy(how = How.XPATH, using = "//h2[contains(text(),' Accounts ')]")
+	// WebElement ACCOUNTS_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//input[@name = 'account']")
 	WebElement ACCOUNT_TITLE_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//input[@name='description']")
@@ -40,7 +40,7 @@ public class BankAndCash {
 	WebElement PHONE_NUMBER_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//input[@id = 'ib_url']")
 	WebElement INTERNET_BANK_URL_FIELD_ELEMENT;
-	@FindBy(how = How.XPATH, using = "//button[@class= 'btn btn-primary']")
+	@FindBy(how = How.XPATH, using = "//*[@id='page-wrapper']/div[3]/div[1]/div/div/div[2]/form/button")
 	WebElement SUBMIT_BUTTON_ELEMENT;
 
 	public void clicksOnbankAndcash() {
@@ -52,12 +52,13 @@ public class BankAndCash {
 
 	}
 
-	public void getpagesource() {
-		ACCOUNTS_ELEMENT.getText();
-	}
+	// public void getpagesource() {
+	// 	ACCOUNTS_ELEMENT.getText();
+	// }
 
 	public void enterAccountTitle(String accountTitle) {
 		ACCOUNT_TITLE_ELEMENT.sendKeys(accountTitle);
+		System.out.println("adding account title");
 	}
 
 	public void insertDiscription(String discription) {
@@ -86,12 +87,12 @@ public class BankAndCash {
 
 	public void clickSubmitbutton() {
 		SUBMIT_BUTTON_ELEMENT.click();
+		System.out.println("submit clicked!---------------------------------------");
 	}
 
 	public String validatecreatedAcount() {
-		driver.getPageSource();
-		return "";
-
+		return driver.getCurrentUrl();
+	
 	}
 
 }

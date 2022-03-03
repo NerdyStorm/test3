@@ -23,7 +23,7 @@ public class TestBase {
 		System.setProperty("webdriver.chrome.driver", "driver/chromedriver.exe");
 		driver = new ChromeDriver();
 		//TestBase tbobj = new TestBase();
-		driver = new ChromeDriver();
+		// driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
