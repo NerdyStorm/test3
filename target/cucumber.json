@@ -96,7 +96,7 @@
         "before": [
           {
             "result": {
-              "duration": 2134580000,
+              "duration": 2332104900,
               "status": "passed"
             },
             "match": {
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 891754600,
+              "duration": 961966500,
               "status": "passed"
             },
             "line": 31,
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 110852900,
+              "duration": 163706900,
               "status": "passed"
             },
             "line": 32,
@@ -143,7 +143,7 @@
           },
           {
             "result": {
-              "duration": 55638000,
+              "duration": 103695700,
               "status": "passed"
             },
             "line": 33,
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 2010426700,
+              "duration": 2407982600,
               "status": "passed"
             },
             "line": 34,
@@ -179,7 +179,7 @@
           },
           {
             "result": {
-              "duration": 16055900,
+              "duration": 37085800,
               "status": "passed"
             },
             "line": 35,
@@ -197,7 +197,7 @@
           },
           {
             "result": {
-              "duration": 23091700,
+              "duration": 111925600,
               "status": "passed"
             },
             "line": 36,
@@ -215,7 +215,7 @@
           },
           {
             "result": {
-              "duration": 757701200,
+              "duration": 617644700,
               "status": "passed"
             },
             "line": 37,
@@ -233,7 +233,7 @@
           },
           {
             "result": {
-              "duration": 8537500,
+              "duration": 10232700,
               "status": "passed"
             },
             "line": 38,
@@ -251,7 +251,7 @@
           },
           {
             "result": {
-              "duration": 58292400,
+              "duration": 61892500,
               "status": "passed"
             },
             "line": 39,
@@ -269,7 +269,7 @@
           },
           {
             "result": {
-              "duration": 43464000,
+              "duration": 57550400,
               "status": "passed"
             },
             "line": 40,
@@ -287,7 +287,7 @@
           },
           {
             "result": {
-              "duration": 45772600,
+              "duration": 57299400,
               "status": "passed"
             },
             "line": 41,
@@ -305,7 +305,7 @@
           },
           {
             "result": {
-              "duration": 85300,
+              "duration": 99000,
               "status": "passed"
             },
             "line": 42,
@@ -323,7 +323,7 @@
           },
           {
             "result": {
-              "duration": 45428900,
+              "duration": 54820700,
               "status": "passed"
             },
             "line": 43,
@@ -341,7 +341,7 @@
           },
           {
             "result": {
-              "duration": 45177700,
+              "duration": 58933100,
               "status": "passed"
             },
             "line": 44,
@@ -359,7 +359,7 @@
           },
           {
             "result": {
-              "duration": 50288300,
+              "duration": 60130100,
               "status": "passed"
             },
             "line": 45,
@@ -377,7 +377,7 @@
           },
           {
             "result": {
-              "duration": 60100,
+              "duration": 1049234300,
               "status": "passed"
             },
             "line": 46,
@@ -395,7 +395,7 @@
           },
           {
             "result": {
-              "duration": 13600,
+              "duration": 21000,
               "status": "passed"
             },
             "line": 47,
@@ -418,7 +418,7 @@
     "description": "",
     "id": "techfios-login-functionality-validation",
     "keyword": "Feature",
-    "uri": "features/TechfiosLogin.feature",
+    "uri": "TechfiosLogin.feature",
     "tags": [
       {
         "line": 1,

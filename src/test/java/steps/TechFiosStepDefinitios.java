@@ -81,6 +81,10 @@ public class TechFiosStepDefinitios extends TestBase {
 		    bankAndCash.clicksOnNewAccount();
 		    // Thread.sleep(3000);
 		    break;
+		case "Submit":
+		    bankAndCash.clickSubmitbutton();
+		    // Thread.sleep(3000);
+		    break;
 		default:
 			System.out.println("unable to click");
 		}	
@@ -112,7 +116,7 @@ public class TechFiosStepDefinitios extends TestBase {
 	public void user_Enters(String data)  {
 		switch (data) {
 		case "accountTitle":
-			bankAndCash.enterAccountTitle("accountTitle");
+			bankAndCash.enterAccountTitle("accountTitle" + generateRandomNumber(999));
 			// Thread.sleep(3000);
 			break;
 		case "description":
@@ -138,12 +142,6 @@ public class TechFiosStepDefinitios extends TestBase {
 		}
 	}
 
-	@And("^User clicks on Submit$")
-	public void USER_clicks_on_Submit_Button() {
-		System.out.println("wadauwhdiuwak----------------------------");
-		bankAndCash.clickSubmitbutton();
-		// Thread.sleep(3000);
-	}
 
 	@Then("^User should be able to validate account created successfully$") 
 	 public void user_should_be_able_to_validate(){
@@ -174,6 +172,8 @@ public class TechFiosStepDefinitios extends TestBase {
 			System.out.println("unable to enter data");
 		}
 	}
+
+
 
 	// @After
 	// public void teardown() {

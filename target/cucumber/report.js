@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features/TechfiosLogin.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("TechfiosLogin.feature");
 formatter.feature({
   "line": 2,
   "name": "Techfios login functionality Validation",
@@ -17,7 +17,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2134580000,
+  "duration": 2332104900,
   "status": "passed"
 });
 formatter.scenario({
@@ -213,7 +213,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_is_on_techfios_login_page()"
 });
 formatter.result({
-  "duration": 891754600,
+  "duration": 961966500,
   "status": "passed"
 });
 formatter.match({
@@ -226,7 +226,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_username_as_(String)"
 });
 formatter.result({
-  "duration": 110852900,
+  "duration": 163706900,
   "status": "passed"
 });
 formatter.match({
@@ -239,7 +239,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 55638000,
+  "duration": 103695700,
   "status": "passed"
 });
 formatter.match({
@@ -252,7 +252,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 2010426700,
+  "duration": 2407982600,
   "status": "passed"
 });
 formatter.match({
@@ -265,7 +265,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_should_land_on(String)"
 });
 formatter.result({
-  "duration": 16055900,
+  "duration": 37085800,
   "status": "passed"
 });
 formatter.match({
@@ -278,7 +278,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 23091700,
+  "duration": 111925600,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +291,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 757701200,
+  "duration": 617644700,
   "status": "passed"
 });
 formatter.match({
@@ -304,7 +304,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_should_land_on(String)"
 });
 formatter.result({
-  "duration": 8537500,
+  "duration": 10232700,
   "status": "passed"
 });
 formatter.match({
@@ -317,7 +317,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 58292400,
+  "duration": 61892500,
   "status": "passed"
 });
 formatter.match({
@@ -330,7 +330,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 43464000,
+  "duration": 57550400,
   "status": "passed"
 });
 formatter.match({
@@ -343,7 +343,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 45772600,
+  "duration": 57299400,
   "status": "passed"
 });
 formatter.match({
@@ -356,7 +356,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 85300,
+  "duration": 99000,
   "status": "passed"
 });
 formatter.match({
@@ -369,7 +369,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 45428900,
+  "duration": 54820700,
   "status": "passed"
 });
 formatter.match({
@@ -382,7 +382,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 45177700,
+  "duration": 58933100,
   "status": "passed"
 });
 formatter.match({
@@ -395,7 +395,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 50288300,
+  "duration": 60130100,
   "status": "passed"
 });
 formatter.match({
@@ -408,14 +408,14 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 60100,
+  "duration": 1049234300,
   "status": "passed"
 });
 formatter.match({
   "location": "TechFiosStepDefinitios.user_should_be_able_to_validate()"
 });
 formatter.result({
-  "duration": 13600,
+  "duration": 21000,
   "status": "passed"
 });
 });

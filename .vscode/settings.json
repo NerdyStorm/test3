@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "cucumberautocomplete.steps": [
+        "src/test/java/steps/*.java"
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true
+
+}
