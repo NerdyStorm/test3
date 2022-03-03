@@ -60,23 +60,19 @@ public class TechFiosStepDefinitios extends TestBase {
 	@Then("^User should land on dashboardpage$")
     public void user_should_land_on_dashboardpage() throws Throwable {
 	  String expectedTitle = "Dashboard- iBilling";//xpath   
-     String actualPage = loginpage.getpageTitle();
+      String actualPage = loginpage.getpageTitle();
 	  Assert.assertEquals(expectedTitle, actualPage);//validating
-     takeScreenshot(driver);
+      takeScreenshot(driver);
 	}
-	
-    
-        	
 	@And ("^User clicks on \"([^\"]*)\"$")
 	public void user_clicks_on(String button) throws InterruptedException {
 		switch(button) {
 		case "Signin":
 			loginpage.clickSignin();
 			Thread.sleep(6000);
-			break;
 		case "dashboardpage":
 			loginpage.getpageTitle();
-			Thread.sleep(3000);
+			Thread.sleep(6000);
 		case "Bank & cash":
 			bankAndCash.clicksOnbankAndcash();
 			Thread.sleep(3000);
@@ -149,7 +145,7 @@ public class TechFiosStepDefinitios extends TestBase {
 	}
 
 	@Then("^User should be able to validate account created successfully$")
-	public void user_should_be_able_to_validate_account_created_successfully() throws InterruptedException, IOException {
+	public void user_should_be_able_to_validate()throws InterruptedException, IOException {
 		String expectedmassege = "Account created succeccfully";
 		String actualmassege = bankAndCash.validatecreatedAcount();
 		Thread.sleep(3000);

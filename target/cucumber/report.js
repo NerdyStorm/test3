@@ -52,7 +52,7 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "User should land on dashboardpage",
+  "name": "User should land on \"dashboardpage\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -67,7 +67,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User should land on \"\u003caccounts\u003e\"",
+  "name": "User should land on \"accounts\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -155,7 +155,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 7169270100,
+  "duration": 4832675001,
   "status": "passed"
 });
 formatter.scenario({
@@ -208,7 +208,7 @@ formatter.step({
 });
 formatter.step({
   "line": 10,
-  "name": "User should land on dashboardpage",
+  "name": "User should land on \"dashboardpage\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -223,7 +223,7 @@ formatter.step({
 });
 formatter.step({
   "line": 13,
-  "name": "User should land on \"\u003caccounts\u003e\"",
+  "name": "User should land on \"accounts\"",
   "keyword": "Then "
 });
 formatter.step({
@@ -296,7 +296,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_is_on_techfios_login_page()"
 });
 formatter.result({
-  "duration": 5210729600,
+  "duration": 4714929899,
   "status": "passed"
 });
 formatter.match({
@@ -309,7 +309,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_username_as_(String)"
 });
 formatter.result({
-  "duration": 3596596000,
+  "duration": 3256178601,
   "status": "passed"
 });
 formatter.match({
@@ -322,7 +322,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_enters_password_as(String)"
 });
 formatter.result({
-  "duration": 3261755800,
+  "duration": 3142360700,
   "status": "passed"
 });
 formatter.match({
@@ -335,14 +335,20 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 9153958900,
+  "duration": 17531710700,
   "status": "passed"
 });
 formatter.match({
-  "location": "TechFiosStepDefinitios.user_should_land_on_dashboardpage()"
+  "arguments": [
+    {
+      "val": "dashboardpage",
+      "offset": 21
+    }
+  ],
+  "location": "TechFiosStepDefinitios.user_should_land_on(String)"
 });
 formatter.result({
-  "duration": 863941700,
+  "duration": 43240500,
   "status": "passed"
 });
 formatter.match({
@@ -355,7 +361,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 3329739600,
+  "duration": 3066447700,
   "status": "passed"
 });
 formatter.match({
@@ -368,21 +374,21 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 4077035400,
-  "status": "passed"
+  "duration": 5104534300,
+  "error_message": "org.openqa.selenium.ElementNotInteractableException: element not interactable\n  (Session info: chrome\u003d98.0.4758.102)\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027DESKTOP-5S5PDPE\u0027, ip: \u0027192.168.1.93\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_311\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\\Users\\Kevadia\\AppData\\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:57840}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f929db4b3697bcb09e06e149641f653f\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)\r\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\r\n\tat pages.BankAndCash.clicksOnNewAccount(BankAndCash.java:50)\r\n\tat steps.TechFiosStepDefinitios.user_clicks_on(TechFiosStepDefinitios.java:81)\r\n\tat ✽.Then User clicks on \"New Account\"(features/TechfiosLogin.feature:12)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "\u003caccounts\u003e",
+      "val": "accounts",
       "offset": 21
     }
   ],
   "location": "TechFiosStepDefinitios.user_should_land_on(String)"
 });
 formatter.result({
-  "duration": 35739500,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -394,8 +400,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 207900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -407,8 +412,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 165800,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -420,8 +424,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 187100,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -433,8 +436,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 161200,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -446,8 +448,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 199000,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -459,8 +460,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 159700,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -472,8 +472,7 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_Enters(String)"
 });
 formatter.result({
-  "duration": 197900,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "arguments": [
@@ -485,19 +484,16 @@ formatter.match({
   "location": "TechFiosStepDefinitios.user_clicks_on(String)"
 });
 formatter.result({
-  "duration": 161600,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
-  "location": "TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully()"
+  "location": "TechFiosStepDefinitios.user_should_be_able_to_validate()"
 });
 formatter.result({
-  "duration": 904800,
-  "error_message": "java.lang.NullPointerException\r\n\tat pages.BankAndCash.validatecreatedAcount(BankAndCash.java:82)\r\n\tat steps.TechFiosStepDefinitios.user_should_be_able_to_validate_account_created_successfully(TechFiosStepDefinitios.java:154)\r\n\tat ✽.Then User should be able to validate account created successfully(features/TechfiosLogin.feature:22)\r\n",
-  "status": "failed"
+  "status": "skipped"
 });
 formatter.after({
-  "duration": 1145400200,
+  "duration": 868545100,
   "status": "passed"
 });
 });

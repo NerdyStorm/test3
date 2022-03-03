@@ -7,10 +7,10 @@ Scenario Outline:1 User should be able to Login with valid credentials
   When User enters username as "<username>"
   When User enters password as "<password>"
   And User clicks on "Signin"
-  Then User should land on dashboardpage
+  Then User should land on "dashboardpage"
   Then User clicks on "Bank & cash"
   Then User clicks on "New Account"
-  Then User should land on "<accounts>"
+  Then User should land on "accounts"
   Then User enters on "<accountTitle>"
   Then User enters on "<description>"
   Then User enters on "<initialBalance>"
