@@ -2,7 +2,6 @@ package steps;
 
 import java.io.IOException;
 
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
 import io.cucumber.java.After;
@@ -69,11 +68,11 @@ public class TechFiosStepDefinitios extends TestBase {
 		case "dashboardpage":
 			loginpage.getpageTitle();
 			// Thread.sleep(6000);
-		case "Bank & cash":
+		case "Bank&cash":
 			bankAndCash.clicksOnbankAndcash();
 			// Thread.sleep(3000);
 			break;
-		case "New Account":
+		case "NewAccount":
 		    bankAndCash.clicksOnNewAccount();
 		    // Thread.sleep(3000);
 		    break;
@@ -166,9 +165,9 @@ public class TechFiosStepDefinitios extends TestBase {
 
 
 
-	 @After
-	 public void teardown() {
-	 	driver.close();
-	 	driver.quit();
-	 }
+	//  @After
+	//  public void teardown() {
+	//  	driver.close();
+	//  	driver.quit();
+	//  }
 }
