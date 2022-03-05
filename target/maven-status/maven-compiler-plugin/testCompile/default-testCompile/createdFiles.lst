@@ -1,2 +1,2 @@
-runners\LoginRunner.class
 steps\TechFiosStepDefinitios.class
+runners\TestLoginRunner.class

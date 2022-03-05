@@ -21,6 +21,6 @@ import io.cucumber.junit.Cucumber;
 	}
 		
 		)
-public class LoginRunner {
+public class TestLoginRunner {
 
 }
