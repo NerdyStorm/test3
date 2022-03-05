@@ -5,12 +5,12 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 import junit.framework.Assert;
 import pages.BankAndCashPage;
 import pages.DatabasePage;
@@ -52,17 +52,13 @@ public class TechFiosStepDefinitios extends TestBase {
 		// Thread.sleep(3000);
 
 	}
-//	@When("^User clicks on \"([^\"]*)\"$")
-//	public void user_clicks_on_signin() throws Throwable {
-//		loginpage.clickSignin();
-//		Thread.sleep(3000);
-//	}
+
 	@Then("^User should land on dashboardpage$")
     public void user_should_land_on_dashboardpage() throws Throwable {
 	  String expectedTitle = "Dashboard- iBilling";//xpath   
       String actualPage = loginpage.getpageTitle();
 	  Assert.assertEquals(expectedTitle, actualPage);//validating
-      takeScreenshot(driver);
+//      takeScreenshot(driver);
 	}
 	@And ("^User clicks on \"([^\"]*)\"$")
 	public void user_clicks_on(String button) {
@@ -116,26 +112,26 @@ public class TechFiosStepDefinitios extends TestBase {
 	public void user_Enters(String data)  {
 		switch (data) {
 		case "accountTitle":
-			bankAndCash.enterAccountTitle("accountTitle" + generateRandomNumber(999));
+			bankAndCash.enterAccountTitle("accountTitle333" + generateRandomNumber(9999)+ generateRandomNumber(9999));
 			// Thread.sleep(3000);
 			break;
 		case "description":
 			bankAndCash.insertDiscription("description");
 			break;
 		case "initialBalance":
-			bankAndCash.insertInitialBalance("initialBalance");
+			bankAndCash.insertInitialBalance("10000");
 			break;
 		case "accountNumber":
-			bankAndCash.insertAccountNumber(data + generateRandomNumber(999));
+			bankAndCash.insertAccountNumber("354456");
 			break;
 		case "contactPerson":
 			bankAndCash.insertContactPerson("contactPerson");
 			break;
 		case "phoneNumber":
-			bankAndCash.insertPhoneNumber("phoneNumber");
+			bankAndCash.insertPhoneNumber("455367789");
 			break;
 		case "internetBankingURL":
-			bankAndCash.insertinternetBankURL("internetBankingURL");
+			bankAndCash.insertinternetBankURL("https://www.chace.com");
 			break;
 		default:
 			System.out.println("unable to enter data");
@@ -144,14 +140,9 @@ public class TechFiosStepDefinitios extends TestBase {
 
 
 	@Then("^User should be able to validate account created successfully$") 
-	 public void user_should_be_able_to_validate(){
-	//throws InterruptedException, IOException {
-	// 	String expectedmassege = "Account created succeccfully";
-	// 	String actualmassege = bankAndCash.validatecreatedAcount();
-	// 	System.out.println(actualmassege);
-		// Thread.sleep(3000);
-		// Assert.assertEquals(expectedmassege, actualmassege);
-		// takeScreenshot(driver);
+	 public void user_should_be_able_to_validate()throws InterruptedException, IOException {
+         Thread.sleep(3000);
+         takeScreenshot(driver);
 	}
 
 	@When("^User enters \"([^\"]*)\" from mysql database$")
@@ -175,9 +166,9 @@ public class TechFiosStepDefinitios extends TestBase {
 
 
 
-	// @After
-	// public void teardown() {
-	// 	driver.close();
-	// 	driver.quit();
-	// }
+	 @After
+	 public void teardown() {
+	 	driver.close();
+	 	driver.quit();
+	 }
 }

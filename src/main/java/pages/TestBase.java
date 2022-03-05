@@ -45,7 +45,7 @@ public class TestBase {
 	}
 	
 	public static int generateRandomNumber(int boundaryNumber) {
-		Random random = new Random(999);
+		Random random = new Random();
 		return random.nextInt(boundaryNumber);
 
 	}

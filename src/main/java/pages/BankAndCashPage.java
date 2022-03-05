@@ -12,14 +12,6 @@ public class BankAndCashPage {
 	public void bankandCash(WebDriver driver) {
 		this.driver = driver;
 	}
-
-	// Element library
-//		@FindBy(how = How.XPATH, using = "//input[@id='username']")
-//		WebElement USERNAME_ELEMENT;
-//		@FindBy(how = How.XPATH, using = "//input[@id=\"password\"]")
-//		WebElement PASSWORD_ELEMENT;
-//		@FindBy(how = How.XPATH, using = "/html/body/div/div/div/form/div[3]/button")
-//		WebElement SIGNIN_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//span[text() = 'Bank & Cash']")
 	WebElement BANK_AND_CASH_ELEMENT;
 	@FindBy(how = How.XPATH, using = "//a[text() = 'New Account']")
